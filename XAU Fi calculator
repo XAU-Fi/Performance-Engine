@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>XAU Fi AI Performance Engine</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+}
+h1, h2, h3 {
+    margin: 0 0 20px 0;
+}
+.gold {
+    color: #d4af37;
+}
+.section {
+    margin-bottom: 80px;
+}
+.center {
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #d4af37;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.button.secondary {
+    background-color: transparent;
+    border: 1px solid #d4af37;
+    color: #d4af37;
+}
+.small {
+    font-size: 14px;
+    opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HERO -->
+<div class="section center">
+    <h1 class="gold">Control the Risk. Define the Outcome.</h1>
+    <p>The XAU Fi AI Performance Engine allows you to simulate strategy outcomes based on your capital and risk preferences.</p>
+    <p class="small">We execute — you retain full control over your capital.</p>
+</div>
+
+<!-- CALCULATOR -->
+<div class="section">
+    <h2 class="gold center">XAU Fi AI Performance Engine</h2>
+    <p class="center">Adjust your parameters and explore how the strategy adapts to different market conditions.</p>
+
+    <!-- EMBED YOUR CALCULATOR HERE -->
+    <div style="margin-top:40px;">
+        <iframe src="https://dxb-100.github.io/gold-strategy-calculator/" 
+                width="100%" height="600px" 
+                style="border:none; border-radius:10px;">
+        </iframe>
+    </div>
+
+    <!-- TRUST -->
+    <div class="center small" style="margin-top:30px;">
+        <p>No capital is held by us</p>
+        <p>Fully automated execution</p>
+        <p>Equity stop protection built-in</p>
+    </div>
+</div>
+
+<!-- TRANSITION -->
+<div class="section center">
+    <h2>Clarity before commitment.</h2>
+    <p>Understand the potential. Define your risk. Move forward with confidence.</p>
+</div>
+
+<!-- CTA -->
+<div class="section center">
+    <h2 class="gold">Start with XAU Fi AI</h2>
+    <p>Take full control of your investment while leveraging algorithmic execution.</p>
+
+    <a href="#" class="button">Open Your Account</a>
+    <a href="#" class="button secondary">Schedule a Consultation</a>
+</div>
+
+<!-- FOOTER -->
+<div class="section center small">
+    <p>Your capital remains under your control at all times.</p>
+    <p>A performance fee is applied to ensure the continued development and sustainability of the algorithm.</p>
+</div>
+
+</div>
+
+</body>
+</html>
